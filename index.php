@@ -74,21 +74,6 @@ to register.</p>
  foreach($registrants as $registrant) {
  echo "<tr><td>".$registrant['name']."</td>";
  echo "<td>".$registrant['email']."</td>";
-U terminalu idite na putanju mape vaše aplikacije i upišite sljedeæu naredbu:
-Sada možete u pregledniku otiæi na adresu http://localhost:8000/ kako biste testirali vašu
-aplikaciju.
-6. Objavljivanje vaše aplikacije
-Nakon što ste testirali vašu aplikaciju lokalno, možete ju objaviti na Web Apps-u korištenjem
-Git-a. Prvo æete inicijalizirati svoj lokalni Git repositorij, te potom objaviti aplikaciju.
-Napomena:
-Ovo su isti koraci prikazani na Azure Portalu na kraju Create of a web app and Set up Git
-Publishing sekcije.
-1. (Opcionalno) Ako ste zaboravili Ili krivo postavili URL vašeg Git udaljenog repozitorija,
-odite na web app postavke (properties) na Azure Portalu.
-2. Otvorite Git bash (ili terminal ako je Git u vašoj putanji PATH), spremite sve prethodne
-izmjene datoteka u root mapi vaše aplikacije i pokrenite sljedeæe:
-? ?
-Pitat æe vas za lozinku koju ste prethodno kreirali .
  echo "<td>".$registrant['date']."</td></tr>";
  }
  echo "</table>";
